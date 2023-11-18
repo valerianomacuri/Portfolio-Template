@@ -7,6 +7,7 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
+import leo from "./personal/photo.png";
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -31,6 +32,7 @@ import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
+import vuejs from './tech/vue.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
@@ -42,6 +44,13 @@ import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import feedingmindslogo from "./company/feeding-minds-logo.jpg"
+import trem from "./company/trem-logo.jpg"
+import valteclogo from "./company/valtec-logo.jpg"
+import plicklogo from "./company/plick-logo.jpg"
+
+
+
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -49,6 +58,12 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import feedingminds from "./projects/project-feeding-minds.png"
+import plick from "./projects/project-plick.png"
+import propertysearch from "./projects/project-property-search.png"
+import valtec from "./projects/project-valtec.png"
+
+
 
 export {
   bwmap,
@@ -58,6 +73,7 @@ export {
   logo,
   logotext,
   shaq,
+  leo,
   backend,
   ux,
   frontend,
@@ -83,6 +99,7 @@ export {
   postgresql,
   rubyrails,
   reactjs,
+  vuejs,
   redux,
   tailwind,
   typescript,
@@ -96,4 +113,12 @@ export {
   dcc,
   kelhel,
   microverse,
+  feedingminds,
+  plick,
+  propertysearch,
+  valtec,
+  feedingmindslogo,
+  trem, 
+  plicklogo, 
+  valteclogo
 };
