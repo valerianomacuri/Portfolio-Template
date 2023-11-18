@@ -52,7 +52,7 @@ export const navLinks = [
     title: 'Contact',
   },
   {
-    id: 'https://www.linkedin.com/in/valerianomacuri/',
+    id: 'https://github.com/valerianomacuri',
     title: 'Resume',
   },
 ];
