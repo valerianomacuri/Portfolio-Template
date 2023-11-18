@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { shaq, bwmap, worldmap, leo } from "../assets";
+import { FaLinkedin, FaGithubSquare, FaWhatsappSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -51,6 +53,36 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Frontend Developer. <br className="sm:block hidden" />
+              <div style={{ display: "flex", gap: "1rem" }}>
+                <a
+                  href="https://www.linkedin.com/in/valerianomacuri/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaLinkedin cursor="pointer" />
+                </a>
+                <a
+                  href="mailto:leonardo.valeriano.public@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <MdEmail cursor="pointer" />
+                </a>
+                <a
+                  href="https://github.com/valerianomacuri"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithubSquare cursor="pointer" />
+                </a>
+                <a
+                  href="https://wa.me/51934643232"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaWhatsappSquare cursor="pointer" />
+                </a>
+              </div>
             </p>
           </div>
           <div
